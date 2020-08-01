@@ -2,6 +2,12 @@
   "name": "cssmodule-without-global-loader",
   "version": "1.0.1",
   "description": "A loader for webpack that allows write global css without :global.",
+  "homepage": "https://github.com/tancgo/cssmodule-without-global-loader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tancgo/cssmodule-without-global-loader.git"
+  },
+  "bugs": "https://github.com/tancgo/cssmodule-without-global-loader/issues",
   "main": "./dist/cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +28,11 @@
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"
   },
-  "keywords": [],
+  "keywords": [
+    "css-module",
+    "webpack",
+    "loader"
+  ],
   "author": "tancgo",
   "license": "ISC",
   "files": [
