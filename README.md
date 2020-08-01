@@ -52,7 +52,6 @@ module.exports = {
 ```less
 :global {
   ant-input: {
-
   }
 }
 ```
@@ -61,7 +60,6 @@ module.exports = {
 
 ```less
 ant-input: {
-
 }
 ```
 
@@ -69,7 +67,7 @@ And run `webpack` via your preferred method.
 
 ## Options
 
-|   Name    |    Type    |   Default   | Description                                                           |
-| :-------: | :--------: | :---------: | :-------------------------------------------------------------------- |
-| `prefix`  | `{string}` |    `''`     | the third party css prefix, such as ant- for antd, el- for element-ui |
-| `pattern` | `{object}` | `undefined` | the RegExp depends on localIdentName of css-loader                       |
+|   Name    |    Type    | Required | Description                                                               |
+| :-------: | :--------: | :------: | :------------------------------------------------------------------------ |
+| `prefix`  | `{string}` |   yes    | the third party css prefix, such as `ant-` for antd, `el-` for element-ui |
+| `pattern` | `{object}` |   yes    | the RegExp depends on `localIdentName` of css-loader                      |
