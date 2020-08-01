@@ -27,7 +27,7 @@ module.exports = {
             loader: 'style-loader'
           },
           {
-            loader: path.resolve('./without-global-loader/index.js'),
+            loader: 'cssmodule-without-global-loader',
             options: {
               prefix: 'ant-',
               pattern: /__.{5}/g
@@ -71,3 +71,5 @@ And run `webpack` via your preferred method.
 | :-------: | :--------: | :------: | :------------------------------------------------------------------------ |
 | `prefix`  | `{string}` |   yes    | the third party css prefix, such as `ant-` for antd, `el-` for element-ui |
 | `pattern` | `{object}` |   yes    | the RegExp depends on `localIdentName` of css-loader                      |
+
+### ``
