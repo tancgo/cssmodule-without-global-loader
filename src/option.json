@@ -1,0 +1,12 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "prefix": {
+      "type": "string"
+    },
+    "pattern": {
+      "type": "object"
+    }
+  },
+  "type": "object"
+}
