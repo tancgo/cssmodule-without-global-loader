@@ -1,5 +1,5 @@
 "use strict";
 
-var loader = require("./index");
+const loader = require("./index");
 
-module.exports = loader["default"];
+module.exports = loader.default;
