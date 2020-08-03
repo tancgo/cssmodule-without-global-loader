@@ -1,6 +1,6 @@
 {
   "name": "cssmodule-without-global-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A loader for webpack that allows write global css without :global.",
   "homepage": "https://github.com/tancgo/cssmodule-without-global-loader",
   "repository": {
